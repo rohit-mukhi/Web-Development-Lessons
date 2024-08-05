@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rohit Mukhi">
+        <meta name="description" content="This is my lesson">
+        <link rel="icon" href="logo.png" type="image/x-icon">
+        <title>
+            Rohit Mukhi
+        </title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <h1>
+            Rohit Mukhi
+        </h1>
+
+        <!--We have header, main and footer tag also, which help to divide the web into sections-->
+        <!--section tag is used to refer to a particular section of a page-->
+        <!--Section are regions in general. article refer to a specific topic. Their are sections inside articles-->
+        <!--Then you can add links to scroll down to that section using <a> tag-->
+        <!--We can label specific paragraphs to so that we can refer them in css. This is done by using aria-label. If the section has id tag inside then we use aria-labelledby-->
+        <!--We label tags if there are more than one of same, so that the system can differentiate between two of same kind-->
+        <h3><em>Contents</em></h3>
+        <nav aria-label="primary-navigation">
+            <p id="primary-navigation">
+                1. <a href="#about">About me</a>
+                <br>
+                2. <a href="#favourites">Favourites</a>
+                <br>
+                3. <a href="#routine">My routine</a>
+                <br>
+                4. <a href="#food">Best Foods</a>
+                <br>
+                5. <a href="#skills">My skills</a>
+                <br> 
+            </p>
+        </nav>
+       
+        <!--The nav tag is used to put links to move to a particular section-->
+        <!--We can insert code using the code tag-->
+
+        <hr>
+
+        <section id="about">
+            <h2>About me</h2>
+            <!--loading default value is eager i.e loads as soon as page is opened-->
+            <figure>
+                <img src="images/Myself_696x704.jpg" alt="My photo" width="300" height="300" loading="eager">
+                <figcaption>My photo</figcaption>
+            </figure>
+           
+            <p>
+                Hey, nice to meet you. I am Rohit Mukhi, a tech enthusiast. I am on a jounrney to master the latest skills that are in demand. I am a computer science student too. I created this web page to demostrate my expertise in web development. I hope you enjoy my web page. 
+            </p>
+        </section>
+
+        <hr>
+        
+        <section id="favouites">
+        <h2>
+            My favouites.            
+        </h2>
+
+        <!-- br is used as line break-->
+        <!-- You can also use &nbsp; to leave small spaces of fixed length-->
+        <p>
+            My favourite things to do :
+            <br> 1. I enjoy listening to music. 
+            <br> 2. It cherish to code.
+            <br> 3. Thinking of all possible scenarios.
+            <br> 4. Eat, eat and eat.
+        </p>
+
+    </section>
+
+
+        <hr>
+
+        <section id="routine">
+
+        <h2>Daily routine</h2>
+
+        <!-- em is used to emphasize the text-->
+         <!-- abbr is used in case of abbreviations. On hovering over it one can see the full form-->
+        <p>
+            Get up and watch <em>reels</em>.
+            <br> For breakfast I eat <strong>Maggi.</strong>
+            <br> I have started learning <abbr title="Hyper Text Markup Language">HTML</abbr>.
+        </p>
+
+        </section>
+
+        <hr>
+
+        <section id="food">
+        <h2>Food I love :</h2>
+
+        <!--This is a example of descriptive list-->
+        <!--dt is the term being described-->
+        <!--dd is the description of the object-->
+        <dl>
+            <dt><strong><a href="images/Dosa.jpg" download>Dosa</a></strong></dt>
+            <br>
+            <!--here loading is set to lazy, so image will load once you start scrolling down. This is used to increase performance of the website-->
+            <figure>
+                <img src="images/Dosa.jpg" alt="Dosa" width="300" height="300" loading="lazy">
+                <figcaption>courtesy : google images</figcaption>
+            </figure>
+            <dd>It has a savoury texture.</dd>
+            <br>
+
+            <dt><strong><a href="images/biryani.jpg" download>Biryani</a></strong></dt>
+            <br>
+            <figure>
+                <img src="images/biryani.jpg" alt="biryani" width="300" height="300" loading="lazy">
+                <figcaption>courtesy : google images</figcaption>
+            </figure>
+            <dd>You just cannot resist biryani.</dd>
+            <br>
+
+            <dt><strong><a href="images/pineapplepastry.jpg" download>Pastery</a></strong></dt>
+            <br>
+            <figure>
+                <img src="images/pineapplepastry.jpg" alt="pastery" width="300" height="300" loading="lazy">
+                <figcaption>courtesy : google images</figcaption>
+            </figure>
+            <dd>Who does not love pastery.</dd>
+            <br>
+        </dl>
+
+        </section>
+
+
+        <hr>
+
+        <section id="skills">
+
+        <h2> Skills I know : </h2>
+
+        <!--Here is how a list is created-->
+        <!--We use <ol> for an ordered (numbered) list-->
+        <!--We use <ul> for bulleted list-->
+        <!--
+            <ul>
+            <li>Java</li>
+            <li>Linux</li>
+            <li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
+            <li><abbr title="Casscading style sheets">CSS</abbr></li>
+            </ul>
+        -->
+        <!--Since I cannot align the bullets so using para-->
+
+        <!--<a> tag is called anchor tag-->
+        <!--<a> tag is used to add links in the web page-->
+        <!--<a> tag can be used to link pages from web as well pages you have created on system-->
+        <p>
+            <em>Java</em>
+            <br>
+            <em>Linux</em>
+            <br>
+            <em><abbr title="Hyper Text Markup Language">HTML</abbr></em>
+            <br>
+            <em><abbr title="Casscading style sheets">CSS</abbr></em>
+            <br>
+            You can find my profile at <a href="https://www.linkedin.com/in/rohit-mukhi-009a14263/">LinkedIn</a>
+        </p>
+            
+        </section>
+
+        <hr>
+
+        <!-- &lt is less than.It is because html does not use symbols directly-->
+        <p>&lt;&lt;&lt;  Rohit Mukhi &copy; &gt;&gt;&gt;</p>
+
+        <hr>
+
+        <!--strong is used to emphasize text in bold-->
+        <h2><strong>Developer's Contact</strong></h2>
+
+        <!--address is used to mention address of a place-->
+        <address>
+            Birsanagar 
+            <br>
+            Jamshedpur 831004
+        </address>
+        <a href="https://www.google.com/maps/@22.785253,86.2579962,20z?entry=ttu" target:"_blank">My location</a>
+        <br>
+        <a href="tel:+918580371372"> My Phone</a>
+        <!--<a href="mailto:random@gmail.com">mail</a>-->
+        <!--The above is how you can attach an email link-->
+        <!--Just # is used to go to the top-->
+        <!--If you have two pages simultaneously then <a href="/">Back to home page</a> is used to go back to home page-->
+        <p><a href="#">Back to top</a></p>
+    </body>
+</html>
