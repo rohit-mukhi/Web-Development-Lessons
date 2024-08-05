@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <style>
+        h1 {
+            color :aqua;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color:dimgray;
+            text-align-last: center;
+        }
+
+        h2 {
+            color:chocolate;
+            background-color:darkgrey;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align-last: center;
+        }
+
+        p1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: azure;
+        }
+        button {
+            size:0cqb;
+            background-color:darkkhaki;
+            color: blue;
+            max-width: max-content;
+
+        }
+    </style>
+  </head>
+  <body>
+    <h1>
+        Cravin Facts
+    </h1>
+    <h2>
+        Feed your curiosity
+    </h2>
+    <p1>
+        Welcome to the one and only destination to know about random things.
+    </p1>
+    <button>
+        Enter your world
+    </button>
+  </body>  
+</html>
