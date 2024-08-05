@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rohit Mukhi" />
+    <meta name="Description" content="HTML lesson" />
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="main-2.css" type="text/css" />
+    <title>Cravin Facts</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cravin Facts</h1>
+
+      <nav aria-labelledby="primary">
+         <a href="#about"><strong>About us</strong></a>
+         <a href="#contact"><strong>Contact us</strong></a>
+         <a href="#donate"><strong>Donate us</strong></a>
+      </nav>
+    </header>
+
+    <main>
+      <h2><strong>Total Internal Refelection</strong></h2>
+      <img src="images/Total-Internal-Reflection.jpg" alt="Total-Internal-Reflection" width="500" height="300" loading="eager">
+      <figcaption><a href="images/Total-Internal-Reflection.jpg" download>Total internal reflection</a></figcaption>
+
+      <article id="Definition">
+        <p>
+          The phenomenon due to which light when travelling from an optically
+          denser medium to an optically rarer medium, is totally refelcted back
+          in the optically denser medium when it strikes the interface at an
+          angle greater than or equal to the critical angle is called
+          <strong>Total Internal Reflection</strong>
+        </p>
+      </article>
+
+      <article id="theory">
+        <h3>Theory of Light</h3>
+
+        <aside>
+            <details>
+                <summary>Snell laws</summary>
+                <p>
+                    It states that the incident ray, refelcted ray and the normal lie on the same plane. The angle of incidence is equal to angle of reflection.
+                </p>
+        </details>
+        <br>
+        <details>
+            <summary>Dual nature of light</summary>
+            <p>
+                Light acts as a wave under conditions and as particle in other conditions.
+            </p>
+        </details>
+    </aside>
+
+    <h3>Applications</h3>
+
+    <p>
+      The phenomenon of total internal reflection can be observed in various aspects pf life. Mirages in deserts are a result of total internal reflection of light. The light waves from far off carry the image of an oasis which is formed in front of an obsever.
+    </p>
+      </article>
+
+      <hr>
+
+      <article id="about">
+        <h3><strong>About us</strong></h3>
+        <p>
+          Cravin facts is curiosity venture by Rohit Mukhi, a student of computer science at <a href="https://www.soa.ac.in/iter"><em>ITER SOA deemed university</em></a>. As a student Rohit collected information regarding various topics on science, history and literature. It is due to his passion of collecting knowledge that he created this web page. So enjoy and learn.
+        </p>
+      </article>
+
+      <hr>
+
+      <article id="contact">
+        <h3><strong>Contact us</strong></h3>
+        <p>
+          Developer's contact : <a href="mailto: rohitmukhi52@gmail.com">rohitmukhi52@gmail.com</a>
+          <br>
+          Developer's phone : <a href="tel: +918580371372">8580371372</a>
+          <address>
+            Birsanagar, Jamshedpur, Jharkhand, India - 831004
+          </address>
+        </p>
+      </article>
+
+      <hr>
+
+      <article id="donate">
+        <h3><strong>Donate us</strong></h3>
+        <img src="images/photo_2024-07-22_20-42-32.jpg" alt="My QR code" width="300" height="500">
+      </article>
+
+      <a href="#">Back to top</a>
+    </main>
+  </body>
+</html>
